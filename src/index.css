@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  
+  --color-cream: #F5F5F0;
+  --color-charcoal: #1A1A1A;
+  --color-emerald-deep: #0F4C3A;
+  --color-gold-muted: #C5A059;
+
+  --color-forest: #121816;
+  --color-cream-soft: #E8E5DF;
+  --color-gold-dark: #A88849;
+}
+
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+  body {
+    @apply bg-cream text-charcoal transition-colors duration-300 antialiased;
+  }
+  
+  .dark body {
+    @apply bg-forest text-cream-soft;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-bold italic tracking-tight;
+  }
+}

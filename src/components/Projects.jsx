@@ -34,8 +34,8 @@ const Projects = () => {
     {
       title: 'Dairy Parlour',
       date: 'June 2025',
-      tech: ['React', 'Node.js', 'Express', 'MongoDB', 'PHP', 'MySQL'],
-      desc: 'Built a full-stack Dairy Management System with online ordering, subscriptions, and admin management using PHP and MySQL.',
+      tech: ['React', 'Node.js', 'Express', 'MongoDB'],
+      desc: 'Built a full-stack Dairy Management System with online ordering, subscriptions, and admin management with product catalog and with real time CRUD.',
       repo: 'https://github.com/Aamir-Raza-7'
     },
     {

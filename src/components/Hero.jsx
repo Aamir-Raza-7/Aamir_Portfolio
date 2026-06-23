@@ -108,8 +108,8 @@ const Hero = () => {
                 opacity: buttonOpacity,
                 y: buttonY2
               }}
-              href="/AamirRaza_Resume.pdf" 
-              download="AamirRaza_Resume.pdf"
+              href="/AmirResume.pdf" 
+              download="AmirResume.pdf"
               className="group flex items-center px-8 py-4 border-2 border-charcoal dark:border-cream-soft text-charcoal dark:text-cream-soft font-bold text-sm uppercase tracking-widest hover:bg-charcoal hover:text-cream dark:hover:bg-cream-soft dark:hover:text-forest transition-all duration-300 w-full sm:w-auto justify-center"
             >
               Resume

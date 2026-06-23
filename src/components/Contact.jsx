@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, Phone, Code2, MapPin, Linkedin } from 'lucide-react';
+import { Mail, Phone, Code2, MapPin } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -37,7 +37,11 @@ const Contact = () => {
             </a>
             <a
               href="https://www.linkedin.com/in/amir-raza-36ab74413" target="_blank" rel="noreferrer" className="p-4 bg-cream dark:bg-forest border border-charcoal/10 dark:border-white/10 hover:border-emerald-deep dark:hover:border-gold-dark text-charcoal dark:text-cream-soft hover:text-emerald-deep dark:hover:text-gold-dark transition-all duration-300">
-              <Linkedin size={24} />
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                <rect width="4" height="12" x="2" y="9"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
             </a>
             <div className="p-4 bg-cream dark:bg-forest border border-charcoal/10 dark:border-white/10 flex items-center text-charcoal dark:text-cream-soft cursor-default">
               <MapPin size={24} className="mr-3 text-emerald-deep dark:text-gold-dark" />

@@ -47,14 +47,11 @@ const About = () => {
           >
             <div className="aspect-square bg-cream dark:bg-forest border border-charcoal/10 dark:border-white/10 p-4 shadow-xl relative z-10">
               <div className="w-full h-full bg-charcoal/5 dark:bg-white/5 flex items-center justify-center overflow-hidden">
-                {/* Placeholder for a portrait/aesthetic image */}
-                <div className="text-center p-8">
-                  <div className="w-24 h-24 mx-auto border border-emerald-deep dark:border-gold-dark rounded-full flex items-center justify-center mb-6 bg-emerald-deep/10 dark:bg-gold-dark/10">
-                    <span className="text-5xl">👨‍💻</span>
-                  </div>
-                  <h3 className="font-serif font-bold italic text-2xl text-charcoal dark:text-cream-soft">Aamir Raza</h3>
-                  <p className="text-sm font-bold uppercase tracking-widest text-charcoal/50 dark:text-cream-soft/50 mt-2">Udaipur, Rajasthan</p>
-                </div>
+                <img 
+                  src="/profile.jpg" 
+                  alt="Aamir Raza" 
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" 
+                />
               </div>
             </div>
             {/* Decorative offset border */}
